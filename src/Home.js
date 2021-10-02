@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Playlist from "./Playlist";
 
 class Home extends React.Component {
   state = {
@@ -20,7 +21,9 @@ class Home extends React.Component {
             <div className="loader"></div>
           </div>
         ) : (
-          <div className="playlist-container">hi</div>
+          <div className="playlist-container">
+            <Playlist />
+          </div>
         )}
       </section>
     );
