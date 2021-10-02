@@ -63,3 +63,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.musicList-container {
+  width: 100%;
+  height: 60%;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.musicList-container::-webkit-scrollbar {
+  display: none;
+}
