@@ -1,5 +1,5 @@
 {
-  "name": "play-app",
+  "name": "play_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "hompage": "https://halamlee.github.io/play_app"
+  "homepage": "https://halamlee.github.io/play_app/"
 }
