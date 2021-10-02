@@ -4,4 +4,65 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: cornflowerblue;
+}
+
+.playing-container {
+  width: 25%;
+  height: 80%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.arrow-icon {
+  font-size: 20px;
+}
+
+.playing-container img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* height: 150px; */
+  margin-bottom: 30px;
+}
+
+.playing-container h5 {
+  margin-bottom: 30px;
+}
+
+.playing-btns {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playing-btn:not(:last-child) {
+  margin-right: 30px;
+}
+
+.sync-icon,
+.random-icon {
+  color: rgba(199, 199, 199, 0.87);
+}
+
+.playCircle-icon {
+  font-size: 40px;
 }

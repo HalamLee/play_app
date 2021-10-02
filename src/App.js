@@ -1,9 +1,16 @@
 import React from "react";
-import "./App.css";
+import { HashRouter, Route } from "react-router-dom";
 import Home from "./routes/Home";
+import Playing from "./routes/Playing";
+import "./App.css";
 
 function App() {
-  return <Home />;
+  return (
+    <HashRouter>
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/playing/:id" component={Playing} />
+    </HashRouter>
+  );
 }
 
 export default App;

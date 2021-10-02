@@ -29,7 +29,7 @@ class Home extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ isLoading: false });
-    }, 2000);
+    }, 500);
     this.getMusiclist();
   }
 
@@ -71,6 +71,7 @@ class Home extends React.Component {
                   <Musiclist
                     img="https://source.unsplash.com/random"
                     key={index}
+                    id={index}
                     artist={list.아티스트명}
                     title={list.저작물명}
                   />
