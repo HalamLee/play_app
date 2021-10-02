@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed9dc52a.chunk.css",
-    "main.js": "/static/js/main.9fd6c3cb.chunk.js",
-    "main.js.map": "/static/js/main.9fd6c3cb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5847c49d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5847c49d.js.map",
-    "static/js/2.11d08a07.chunk.js": "/static/js/2.11d08a07.chunk.js",
-    "static/js/2.11d08a07.chunk.js.map": "/static/js/2.11d08a07.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ed9dc52a.chunk.css.map": "/static/css/main.ed9dc52a.chunk.css.map",
-    "static/js/2.11d08a07.chunk.js.LICENSE.txt": "/static/js/2.11d08a07.chunk.js.LICENSE.txt"
+    "main.css": "/play_app/static/css/main.ed9dc52a.chunk.css",
+    "main.js": "/play_app/static/js/main.9fd6c3cb.chunk.js",
+    "main.js.map": "/play_app/static/js/main.9fd6c3cb.chunk.js.map",
+    "runtime-main.js": "/play_app/static/js/runtime-main.4608dc05.js",
+    "runtime-main.js.map": "/play_app/static/js/runtime-main.4608dc05.js.map",
+    "static/js/2.11d08a07.chunk.js": "/play_app/static/js/2.11d08a07.chunk.js",
+    "static/js/2.11d08a07.chunk.js.map": "/play_app/static/js/2.11d08a07.chunk.js.map",
+    "index.html": "/play_app/index.html",
+    "static/css/main.ed9dc52a.chunk.css.map": "/play_app/static/css/main.ed9dc52a.chunk.css.map",
+    "static/js/2.11d08a07.chunk.js.LICENSE.txt": "/play_app/static/js/2.11d08a07.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5847c49d.js",
+    "static/js/runtime-main.4608dc05.js",
     "static/js/2.11d08a07.chunk.js",
     "static/css/main.ed9dc52a.chunk.css",
     "static/js/main.9fd6c3cb.chunk.js"
