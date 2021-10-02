@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import "./Home.css";
-import Musiclist from "./Musiclist";
+import Musiclist from "../components/Musiclist";
 import "./Playlist.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
