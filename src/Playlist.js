@@ -11,11 +11,11 @@ function count() {
   heartCounter.innerText = number;
 }
 
-function Playlist() {
+function Playlist({ id, title }) {
   return (
     <div className="playlist">
       <div className="info">
-        <img src="img/profile.png"></img>
+        <img src="img/profile.png" alt="profile"></img>
         <h3>Lami</h3>
         <h5>Front-end Web Developer</h5>
       </div>
@@ -23,8 +23,9 @@ function Playlist() {
         <div className="btn portfolio-btn">
           <a
             href="https://halamlee.notion.site/Lami-a84fe6caedc34565badcd24913a18f4a"
-            target="_blank">
-            <img src="img/notion.png"></img>
+            target="_blank"
+            rel="noreferrer">
+            <img src="img/notion.png" alt="notion"></img>
             <h5>Portfolio</h5>
           </a>
         </div>
@@ -36,11 +37,14 @@ function Playlist() {
       </div>
       <div className="musicList-container">
         <div className="musicList">
-          <img className="music-cover" src="img/profile.png"></img>
+          <img
+            className="music-cover"
+            src="img/profile.png"
+            alt="coverImg"></img>
           <FontAwesomeIcon icon={faPlay} className="play-icon" />
           <div className="music-info">
             <h5 className="music-artist">Lami</h5>
-            <h3 className="music-title">dddd</h3>
+            <h3 className="music-title">{title}</h3>
           </div>
         </div>
       </div>
